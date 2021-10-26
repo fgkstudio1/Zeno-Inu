@@ -218,7 +218,7 @@ export default function Example() {
             Supported by the biggest players in the industry
           </p>
           <p className="mt-5 text-lg text-gray-300">
-            Massive coin has been the go to value store for the biggest players in the industry. HODLERS include big names like ELon Musk, Eminem and the mightiest of the mightiest, yes you heard it right: "Ken Fucking Kauksi"
+            Massive coin has been the go to value store for the biggest players in the industry. HODLERS include big names like Elon Musk, Eminem and the mightiest of the mightiest, yes you heard it right: "Web Fucking Dev"
           </p>
           <div className="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
             {metrics.map((item) => (
