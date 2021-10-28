@@ -124,14 +124,6 @@ export default function Example() {
                     Get from uniswap
                   </a>
                 </div>
-                <div className="mt-6 px-5">
-                  <p className="text-center text-base font-medium text-gray-500">
-                    Existing customer?{' '}
-                    <a href="#" className="text-gray-900 hover:underline">
-                      Login
-                    </a>
-                  </p>
-                </div>
               </div>
             </div>
           </Popover.Panel>
@@ -190,12 +182,12 @@ export default function Example() {
         <div className="h-full w-full xl:grid xl:grid-cols-2">
           <div className="h-full xl:relative xl:col-start-2" style={{ backgroundImage: "url('/roadmap.png')", backgroundRepeat: 'no-repeat', backgroundPosition: '-30% 30%' }}>
             <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-cols-2 xl:grid-flow-col-dense xl:gap-x-8">
-              <div className="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24 text-center">
+              <div className="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24 text-center flex flex-col justify-center">
                 <h2 className="text-5xl font-semibold tracking-wide text-[#c8229a]">Tokenomics</h2>
-                <div  className="pt-28">
+                <div  className="pt-28 text-center">
                 <img src="/tokentax.png" alt="" className="w-[300px] mx-auto" />
                 </div>
-                <div className="mt-16">
+                <div className="mt-16 text-center mx-auto">
                   <img src="/tokenomics.png" alt=""  />
                 </div>
               </div>  
@@ -203,7 +195,7 @@ export default function Example() {
           </div>
         </div>
       </div>
-      <div id="roadmap" className="max-w-4xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-cols-2 xl:grid-flow-col-dense xl:gap-x-8">
+      <div id="roadmap" className="max-w-4xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-cols-2 xl:grid-flow-col-dense xl:gap-x-8 pb-10">
         <div className="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
           <h2 className="text-5xl font-semibold tracking-wide text-[#c8229a]">Roadmap</h2>
           <p className="mt-5 text-lg text-gray-300">
@@ -231,7 +223,7 @@ export default function Example() {
         </div>
       </div>
     </div>
-    <div className="bg-[#090f23]">
+    <div className="bg-[#090f23] pt-60 lg:pt-[350px] xl:pt-0">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
         <div className="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
           <div className="col-span-1 flex justify-center py-8 px-8 bg-[#32304c]">
