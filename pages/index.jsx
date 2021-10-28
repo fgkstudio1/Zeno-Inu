@@ -1,23 +1,8 @@
-/*
-  This example requires Tailwind CSS v2.0+ 
-  
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
-*/
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import { ChevronRightIcon } from '@heroicons/react/solid'
+import Head from 'next/head'
 
 const navigation = [
   { name: 'Mission', href: '#mission' },
@@ -36,6 +21,10 @@ const metrics = [
 export default function Example() {
   return (
     <div className="relative overflow-hidden">
+      <Head>
+        <title>Zeno Inu | Built different...</title>
+        <meta name="description" content="The Omni-king, and supreme ruler of all meme tokens. Bringing utility and community together to rule the Multiverse." />
+      </Head>
       <Popover as="header" className="relative">
         <div className="bg-[#090f23] pt-6">
           <nav
