@@ -59,7 +59,7 @@ export default function Example() {
             <div className="hidden md:flex md:items-center md:space-x-6">
               <a
                 href="#"
-                className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white font-bold bg-[#9d06d0] hover:bg-gray-700"
+                className="inline-flex items-center px-4 py-2 border border-transparent text-base rounded-md text-white font-bold bg-[#9d06d0] hover:bg-gray-700"
               >
                 Click to trade
               </a>
@@ -219,30 +219,30 @@ export default function Example() {
             <img
               className="h-[80px]"
               src="/uniswap.svg"
-              alt="Workcation"
+              alt="Uniswap"
             />
           </div>
+          <a href="https://twitter.com/zenoinu" target="_blank" rel="noopener" className="col-span-1 flex justify-center py-8 px-8 bg-[#32304c]">
+            <img className="h-[50px] mt-5" src="/twitter.svg" alt="Twitter" />
+          </a>
+          <a href="https://t.me/zenoinu" target="_blank" rel="noopener" className="col-span-1 flex justify-center py-8 px-8 bg-[#32304c]">
+            <img className="h-[60px] mt-3" src="/telegram.svg" alt="Telegram" />
+          </a>
           <div className="col-span-1 flex justify-center py-8 px-8 bg-[#32304c]">
-            <img className="h-[50px] mt-5" src="/twitter.svg" alt="Mirage" />
-          </div>
-          <div className="col-span-1 flex justify-center py-8 px-8 bg-[#32304c]">
-            <img className="h-[60px] mt-3" src="/telegram.svg" alt="Tuple" />
-          </div>
-          <div className="col-span-1 flex justify-center py-8 px-8 bg-[#32304c]">
-            <img className="h-[60px] mt-2" src="/dextools.png" alt="Laravel" />
+            <img className="h-[60px] mt-2" src="/dextools.png" alt="DexTools" />
           </div>
           <div className="col-span-1 flex justify-center py-8 px-8 bg-[#32304c]">
             <img
               className="h-[60px] mt-2 rounded-full"
               src="/coinmarketcap.jpg"
-              alt="StaticKit"
+              alt="CoinMarketcap"
             />
           </div>
           <div className="col-span-1 flex justify-center py-8 px-8 bg-[#32304c]">
             <img
               className="h-[60px] mt-2"
               src="/coingecko.webp"
-              alt="Statamic"
+              alt="CoinGecko"
             />
           </div>
         </div>
