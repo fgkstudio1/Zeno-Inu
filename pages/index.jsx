@@ -140,12 +140,12 @@ export default function Example() {
                     <div className="sm:max-w-xl sm:mx-auto lg:mx-0">
                       <div className="sm:flex">
                         <div className="mt-3 sm:mt-0">
-                          <button
-                            type="submit"
+                        <a
+                            href="https://app.uniswap.org/#/swap?outputCurrency=0x7D2ee0a3856cfFD58fB0963C0E24BF1277a0be0e&use=V2" target="_blank" rel="noopener"
                             className="block w-full py-3 px-4 rounded-md shadow bg-[#c8229a] text-white font-bold hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-300 focus:ring-offset-gray-900"
                           >
                             Buy now
-                          </button>
+                          </a>
                         </div>
                       </div>
                     </div>
