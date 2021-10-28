@@ -134,7 +134,7 @@ export default function Example() {
                     Bringing utility and community together to rule the Multiverse.
                   </p>
                   <p className="mt-3 font-medium text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                    Saitama? Preprare yourself. ZENO is coming.
+                    Saitama? Prepare yourself. ZENO is coming.
                     Built different..
                   </p>
                   <div className="mt-10 sm:mt-12">
