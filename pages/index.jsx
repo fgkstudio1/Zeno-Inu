@@ -57,7 +57,7 @@ export default function Example() {
             </div>
             <div className="hidden md:flex md:items-center md:space-x-6">
               <a
-                href="#"
+                href="https://app.uniswap.org/#/swap?outputCurrency=0x7D2ee0a3856cfFD58fB0963C0E24BF1277a0be0e&use=V2" target="_blank" rel="noopener"
                 className="inline-flex items-center px-4 py-2 border border-transparent text-base rounded-md text-white font-bold bg-[#9d06d0] hover:bg-gray-700"
               >
                 Click to trade
@@ -106,7 +106,7 @@ export default function Example() {
                 </div>
                 <div className="mt-6 px-5">
                   <a
-                    href="#"
+                    href="https://app.uniswap.org/#/swap?outputCurrency=0x7D2ee0a3856cfFD58fB0963C0E24BF1277a0be0e&use=V2" target="_blank" rel="noopener"
                     className="block text-center w-full py-3 px-4 rounded-md shadow bg-indigo-600 text-white font-medium hover:bg-indigo-700"
                   >
                     Get from uniswap
@@ -214,13 +214,13 @@ export default function Example() {
     <div className="bg-[#090f23] pt-60 lg:pt-[350px] xl:pt-0">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
         <div className="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
-          <div className="col-span-1 flex justify-center py-8 px-8 bg-[#32304c]">
+          <a href="https://app.uniswap.org/#/swap?outputCurrency=0x7D2ee0a3856cfFD58fB0963C0E24BF1277a0be0e&use=V2" target="_blank" rel="noopener" className="col-span-1 flex justify-center py-8 px-8 bg-[#32304c]">
             <img
               className="h-[80px]"
               src="/uniswap.svg"
               alt="Uniswap"
             />
-          </div>
+          </a>
           <a href="https://twitter.com/zenoinu" target="_blank" rel="noopener" className="col-span-1 flex justify-center py-8 px-8 bg-[#32304c]">
             <img className="h-[50px] mt-5" src="/twitter.svg" alt="Twitter" />
           </a>
