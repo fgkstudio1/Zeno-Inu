@@ -17,7 +17,6 @@ const metrics = [
   { id: 4, stat: 'Phase 4', emphasis: 'Get listed on exchanges', rest: '. Bridge to other chains. Expand marketing reach' },
 ]
 
-
 export default function Example() {
   return (
     <div className="relative overflow-hidden">
@@ -228,9 +227,9 @@ export default function Example() {
           <a href="https://t.me/zenoinu" target="_blank" rel="noopener" className="col-span-1 flex justify-center py-8 px-8 bg-[#32304c]">
             <img className="h-[60px] mt-3" src="/telegram.svg" alt="Telegram" />
           </a>
-          <div className="col-span-1 flex justify-center py-8 px-8 bg-[#32304c]">
+          <a href="https://www.dextools.io/app/ether/pair-explorer/0x216a09bdf716b20b7c16bb164d9e3cc69b3c79fb" target="_blank" rel="noopener" className="col-span-1 flex justify-center py-8 px-8 bg-[#32304c]">
             <img className="h-[60px] mt-2" src="/dextools.png" alt="DexTools" />
-          </div>
+          </a>
           <div className="col-span-1 flex justify-center py-8 px-8 bg-[#32304c]">
             <img
               className="h-[60px] mt-2 rounded-full"
