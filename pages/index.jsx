@@ -237,13 +237,13 @@ export default function Example() {
               alt="CoinMarketcap"
             />
           </div>
-          <div className="col-span-1 flex justify-center py-8 px-8 bg-[#32304c]">
+          <a href="https://www.coingecko.com/en/coins/zeno-inu" target="_blank" rel="noopener" className="col-span-1 flex justify-center py-8 px-8 bg-[#32304c]">
             <img
               className="h-[60px] mt-2"
               src="/coingecko.webp"
               alt="CoinGecko"
             />
-          </div>
+          </a>
         </div>
       </div>
     </div> 
