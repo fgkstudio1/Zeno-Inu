@@ -1,7 +1,7 @@
 
 const Roadmap = () => {
   return (
-    <section id="roadmap">
+    <section>
       <div className="max-w-7xl px-8 mx-auto pt-20 text-white">
         <div className="flex flex-row items-center">
           <h2 className="text-4xl">Roadmap</h2>

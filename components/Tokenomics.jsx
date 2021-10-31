@@ -2,7 +2,7 @@ import Graph from './Graph'
 
 const Tokenomics = () => {
   return (
-    <section className="bg-[#18181e]" id="tokenomics">
+    <section className="bg-[#18181e]">
       <div className="max-w-7xl px-8 mx-auto py-20 text-white">
         <div className="flex flex-row items-center">
           <h2 className="text-4xl">Tokenomics tax</h2>
