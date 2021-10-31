@@ -22,7 +22,7 @@ export default function Example() {
         </div>
         <div className="text-teal text-lg mt-10">Bringing utility and community together to rule the Multiverse.</div>
         <div className="mt-2 text-lg text-lightGrey">Saitama? Prepare yourself. ZENO is coming. Built different..</div>
-        <div className="mt-2 text-lg text-lightGrey">ZENO intends to be the #1 PVP/PVM tournament style dapp/game with built in Pay to Earn mechanics.<br/>
+        <div className="mt-2 text-lg text-lightGrey">ZENO intends to be the #1 PVP/PVM tournament style dapp/game with built in Play to Earn mechanics.<br/>
           We will utilize all avenues available (marketing/partnerships/experienced developers)<br /> to reach our goals. 
           Will you come along for the journey?
         </div>
