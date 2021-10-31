@@ -6,7 +6,8 @@ import { ChevronRightIcon, ChevronDownIcon } from '@heroicons/react/solid'
 
 const navigation = [
   { name: 'Roadmap', href: '#roadmap' },
-  { name: 'Tokenomics', href: '#tokenomics' }
+  { name: 'Tokenomics', href: '#tokenomics' },
+  { name: 'Whitepaper', href: '/Zeno_Inu_Whitepaper.pdf' }
 ]
 
 const Header = () => {
