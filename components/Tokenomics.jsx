@@ -12,7 +12,7 @@ const Tokenomics = () => {
           <div className="lg:max-w-[33%]">
             <h3 className="text-3xl">How we distribute<br/> token tax</h3>
             <div className="border border-b-2 border-teal mt-5 max-w-[100px]"></div>
-            <div className="text-lightGrey mt-10">To ensure continued growth, we need to allocate funds for development, marketing and holders. For that reason tax was introdouced.</div>
+            <div className="text-lightGrey mt-10">To ensure continued growth, we need to allocate funds for development, marketing and holders. For that reason tax was introduced.</div>
             <div className="text-lightGrey mt-10">Initially 30% of tokens were sent to the burn address, which also gets a piece of the tax that is distributed to holders which ensures that the supply is constantly diminishing.</div>
           </div>
           <div className="p-10 lg:max-w-[33%]">
