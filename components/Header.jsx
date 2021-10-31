@@ -31,7 +31,7 @@ const Header = () => {
                     src="/zeno_logo.png"
                     alt=""
                   />
-                  <span className="text-teal text-3xl ml-2">$ZENO</span>
+                  <span className="text-teal text-3xl ml-2 gradientText">$ZENO</span>
                 </div>
                 <div className="-mr-2 flex items-center md:hidden">
                   <Popover.Button className="bg-[#141419] rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-800 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white">
