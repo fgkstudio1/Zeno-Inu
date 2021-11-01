@@ -4,9 +4,9 @@ export default function LogoCloud() {
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <div className="text-center uppercase text-lightGrey font-medium">Find us on</div>
         <div className="flex flex-col lg:flex-row gap-8 mt-4 justify-between">
-          {/* <div className="flex justify-center" title="SOON!">
+          <a href="https://coinmarketcap.com/currencies/zeno-inu/" target="_blank" rel="noopener" className="flex justify-center" title="SOON!">
             <img src="/coinmarketcap.png" className="h-10 min-w-[230px]" alt="CoinMarketCap" />
-          </div> */}
+          </a>
           <a href="https://www.coingecko.com/en/coins/zeno-inu" target="_blank" rel="noopener" className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
             <img src="/coingecko.png" className="h-10 min-w-[182px]" alt="CoinGecko" />
           </a>
