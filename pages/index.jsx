@@ -5,7 +5,7 @@ import Roadmap from '../components/Roadmap'
 import Join from '../components/Join'
 import ScrollableAnchor from 'react-scrollable-anchor'
 
-export default function Example() {
+export default function Index({ burned }) {
   return (
   <MainLayout>
     <div className="relative overflow-hidden">
@@ -29,7 +29,7 @@ export default function Example() {
       </section>
       <LogoCloud />
       <ScrollableAnchor id={'tokenomics'}><div></div></ScrollableAnchor>
-      <Tokenomics />
+      <Tokenomics burned={burned} />
       <ScrollableAnchor id={'roadmap'}><div></div></ScrollableAnchor>
       <Roadmap />
       <div className="border border-b-2 border-teal mt-8 max-w-[100px] mx-auto"></div>
@@ -46,4 +46,11 @@ export default function Example() {
       </div>
     </MainLayout>
   )
+}
+
+export async function getServerSideProps(context) {
+  const { burned } = await fetch('https://www.zenoinu.com/api/supply').then(res => res.json());
+  return {
+    props: { burned }, // will be passed to the page component as props
+  }
 }
