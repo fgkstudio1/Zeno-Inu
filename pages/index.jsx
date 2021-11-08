@@ -4,6 +4,7 @@ import Tokenomics from '../components/Tokenomics'
 import Roadmap from '../components/Roadmap'
 import Join from '../components/Join'
 import ScrollableAnchor from 'react-scrollable-anchor'
+import YoutubeEmbed from '../components/YoutubeEmbed'
 
 export default function Index({ burned }) {
   return (
@@ -34,6 +35,9 @@ export default function Index({ burned }) {
       <Roadmap />
       <div className="border border-b-2 border-teal mt-8 max-w-[100px] mx-auto"></div>
       <Join />
+      <div className="max-w-7xl mx-auto pt-16">
+        <YoutubeEmbed embedId="cIF_K5x2jTo" />
+      </div>
     </main>
       <footer className="bg-[#141419]" aria-labelledby="footer-heading">
         <h2 id="footer-heading" className="sr-only">
