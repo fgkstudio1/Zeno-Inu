@@ -14,12 +14,13 @@ export default function Index({ burned }) {
       <section className="flex flex-col lg:flex-row items-center max-w-7xl mx-auto py-16 px-8">
         <div>
           <div className="max-w-4xl">
-            <div className="gradientText uppercase text-lg" style={{ letterSpacing: '8px' }}>#1 PVP/PVM tournament style game</div>
+            <div className="gradientText uppercase text-lg" style={{ letterSpacing: '8px' }}>#1 Decentralized Launchpad for Multiverse</div>
             <h1 className="text-white text-2xl lg:text-6xl mt-6" style={{ lineHeight: typeof window !== 'undefined' && window.innerWidth > 1000 ? '90px': '1' }}>The Omni-king, and supreme ruler of all <span className="gradientText" >meme tokens.</span></h1>
           </div>
-          <div className="text-teal text-lg mt-10">Bringing utility and community together to rule the Multiverse.</div>
-          <div className="mt-2 text-lg text-lightGrey">Saitama? Prepare yourself. ZENO is coming. Built different..</div>
-          <div className="mt-2 text-lg text-lightGrey">ZENO intends to be the #1 PVP/PVM tournament style dapp/game with built in Play to Earn mechanics.<br/>
+          <div className="text-teal text-lg mt-10">Bringing decentralized launchpad and community together to rule the Multiverse.</div>
+          <div className="mt-2 text-lg text-lightGrey">The objective is to bring value to the DeFi space as a whole by delivering disruptive, flexible and audited technology.</div>
+          <div className="mt-2 text-lg text-lightGrey">
+           Strenghten your project and reward your communities using our services.<br/>
             We will utilize all avenues available (marketing/partnerships/experienced developers)<br /> to reach our goals. 
             Will you come along for the journey?
           </div>
