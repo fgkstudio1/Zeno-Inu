@@ -26,13 +26,13 @@ const Header = () => {
             <div className="flex items-center flex-1">
               <div className="flex items-center justify-between w-full md:w-auto">
                 <div className="flex flex-row items-center">
-                  <span className="sr-only">Zeno Inu</span>
+                  <span className="sr-only">UNIPAD</span>
                   <img
                     className="h-8 w-auto sm:h-10"
-                    src="/zeno_logo.png"
+                    src="/logo.png"
                     alt=""
                   />
-                  <span className="text-teal text-3xl ml-2 gradientText">$ZENO</span>
+                  <span className="text-teal text-3xl ml-2 gradientText">$UNIPAD</span>
                 </div>
                 <div className="-mr-2 flex items-center md:hidden">
                   <Popover.Button className="bg-[#141419] rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-800 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white">
@@ -51,16 +51,16 @@ const Header = () => {
             </div>
             <div className="hidden md:flex md:items-center md:space-x-6">
               <a
-                href="https://t.me/zenoinu" target="_blank" rel="noopener"
+                href="https://t.me/unipadportal" target="_blank" rel="noopener"
                 className="inline-flex items-center px-4 py-2 text-base text-white font-bold bg-lighterGrey hover:bg-gray-700"
               >
                 Join our telegram
               </a>
               <a
-                href="https://app.uniswap.org/#/swap?outputCurrency=0x7D2ee0a3856cfFD58fB0963C0E24BF1277a0be0e&use=V2" target="_blank" rel="noopener"
+                href="#" target="_blank" rel="noopener"
                 className="inline-flex items-center px-4 py-2 text-base text-white font-bold bg-pink hover:bg-gray-700"
               >
-                Buy on uniswap
+                Participate IDO
               </a>
             </div>
           </nav>
@@ -106,10 +106,10 @@ const Header = () => {
                 </div>
                 <div className="mt-6 px-5">
                   <a
-                    href="https://app.uniswap.org/#/swap?outputCurrency=0x7D2ee0a3856cfFD58fB0963C0E24BF1277a0be0e&use=V2" target="_blank" rel="noopener"
+                    href="#" target="_blank" rel="noopener"
                     className="block text-center w-full py-3 px-4 rounded-md shadow bg-indigo-600 text-white font-medium hover:bg-indigo-700"
                   >
-                    Get from uniswap
+                    Get from PancakeSwap
                   </a>
                 </div>
               </div>
