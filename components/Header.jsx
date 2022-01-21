@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <>
       <Head>
-        <title>Zeno Inu | Built different...</title>
+        <title>Unipad - #1 Integrated Launchpad Ecosystem for  Interactive Gaming</title>
         <meta name="description" content="The Omni-king, and supreme ruler of all meme tokens. Bringing utility and community together to rule the Multiverse." />
       </Head>
       <Popover as="header" className="relative">
