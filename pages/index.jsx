@@ -25,7 +25,7 @@ export default function Index({ burned }) {
           </div>
         </div>
         <div>
-          <img src="/zeno_large.png" className="mt-10" alt="" srcset="" />
+          <img src="/zeno_large.png" className="mt-10" alt="" srcSet="" />
         </div>
       </section>
       <LogoCloud />
