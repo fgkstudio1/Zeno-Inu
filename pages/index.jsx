@@ -15,7 +15,7 @@ export default function Index({ burned }) {
         <div>
           <div className="max-w-4xl">
             <div className="gradientText uppercase text-lg" style={{ letterSpacing: '8px' }}>#1 Decentralized Launchpad for Multiverse</div>
-            <h1 className="text-white text-2xl lg:text-6xl mt-6" style={{ lineHeight: typeof window !== 'undefined' && window.innerWidth > 1000 ? '90px': '1' }}>The Omni-king, and supreme ruler of all <span className="gradientText" >meme tokens.</span></h1>
+            <h1 className="text-white text-2xl lg:text-6xl mt-6" style={{ lineHeight: typeof window !== 'undefined' && window.innerWidth > 1000 ? '90px': '1' }}><b>UNIPAD</b> <span className="gradientText" >Decentralized Launchpad for MetaVerse Gaming & NFTs</span></h1>
           </div>
           <div className="text-teal text-lg mt-10">Bringing decentralized launchpad and community together to rule the Multiverse.</div>
           <div className="mt-2 text-lg text-lightGrey">The objective is to bring value to the DeFi space as a whole by delivering disruptive, flexible and audited technology.</div>
