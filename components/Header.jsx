@@ -26,7 +26,7 @@ const Header = () => {
             <div className="flex items-center flex-1">
               <div className="flex items-center justify-between w-full md:w-auto">
                 <div className="flex flex-row items-center">
-                  <span className="sr-only">UNIPAD</span>
+                  <span className="sr-only"><b>UNIPAD</b></span>
                   <img
                     className="h-8 w-auto sm:h-10"
                     src="/logo.png"
@@ -81,7 +81,7 @@ const Header = () => {
                 <div>
                   <img
                     className="h-8 w-auto"
-                    src="/zeno_logo.png"
+                    src="/logo.png"
                     alt=""
                   />
                 </div>
