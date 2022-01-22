@@ -5,13 +5,16 @@ const Tokenomics = ({ burned }) => {
     <section className="bg-[#18181e]">
       <div className="max-w-7xl px-8 mx-auto py-20 text-white">
         <div className="flex flex-row items-center">
-          <h2 className="text-4xl">Tokenomics tax</h2>
+          <h2 className="text-4xl">Unipad Tokenomics</h2>
           <img src="/tax.png" alt="" className="h-8 ml-5" />
         </div>
+
+        
         <div className="flex flex-col lg:flex-row items-center justify-between mt-10">
           <div className="lg:max-w-[33%]">
             <h3 className="text-3xl">How we distribute<br/> token tax</h3>
             <div className="border border-b-2 border-teal mt-5 max-w-[100px]"></div>
+            
             <div className="text-lightGrey mt-10">To ensure continued growth, we need to allocate funds for development, marketing and holders. For that reason tax was introduced.</div>
             <div className="text-lightGrey mt-10">Initially 30% of tokens were sent to the burn address, which also gets a piece of the tax that is distributed to holders which ensures that the supply is constantly diminishing.</div>
           </div>
@@ -36,7 +39,7 @@ const Tokenomics = ({ burned }) => {
               </div>
               <div>
                 <div className="text-lg font-medium">6% Marketing</div>
-                <div className="mt-6 text-lightGrey">6% of all sales tax will be used for marketing and advertising $ZENO<br /> across the universe.</div>
+                <div className="mt-6 text-lightGrey">6% of all sales tax will be used for marketing and advertising $UNIPAD<br /> across the universe.</div>
               </div>
             </div>
             <div className="flex flex-row">
@@ -46,7 +49,7 @@ const Tokenomics = ({ burned }) => {
               </div>
               <div>
                 <div className="text-lg font-medium">2% Development</div>
-                <div className="mt-6 text-lightGrey">2% of all sales tax will be used for<br /> further development of the Zeno Inu<br /> brand and identity.</div>
+                <div className="mt-6 text-lightGrey">2% of all sales tax will be used for<br /> further development of the UNIPAD<br /> brand and identity.</div>
               </div>
             </div>
           </div>

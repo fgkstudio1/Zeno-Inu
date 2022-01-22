@@ -45,7 +45,7 @@ export default function Index({ burned }) {
           Footer
         </h2>
         <p className="py-8 text-base text-gray-400 md:mt-0 md:order-1 text-center">
-          &copy; {new Date().getFullYear()} Zeno Ino. All rights reserved <span className="mx-2">|</span> info@zenoinu.com
+          &copy; {new Date().getFullYear()} Copyright©2022 - Unipad. All rights reserved <span className="mx-2">|</span> info@unipad.app
         </p>
       </footer>
       </div>
@@ -54,7 +54,7 @@ export default function Index({ burned }) {
 }
 
 export async function getServerSideProps(context) {
-  const { burned } = await fetch('https://www.zenoinu.com/api/supply').then(res => res.json());
+  const { burned } = await fetch('https://www.unipad.app/api/supply').then(res => res.json());
   return {
     props: { burned }, // will be passed to the page component as props
   }

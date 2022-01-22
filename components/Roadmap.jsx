@@ -15,7 +15,7 @@ const Roadmap = () => {
             </div>
             <div>
               <div className="text-lg font-medium">Phase 1</div>
-              <div className="mt-3 text-lightGrey">Launch ZENO on uniswap. Marketing Blitz (Tiktok,Youtube,Telegram,Twitter). Get listed on CMC + Coingecko</div>
+              <div className="mt-3 text-lightGrey">Create Awareness, Private sale with private investors.</div>
             </div>
           </div>
           <div className="flex flex-row lg:max-w-[33%]">
@@ -25,7 +25,7 @@ const Roadmap = () => {
             </div>
             <div>
               <div className="text-lg font-medium">Phase 2</div>
-              <div className="mt-3 text-lightGrey">Integrate ZENO with other partnerships. Whitepaper/ Release sneak peak of dapp. Smart contract audit</div>
+              <div className="mt-3 text-lightGrey">Integrate UNIPAD with Pinksale IDO. Audit smart contract and KYC</div>
             </div>
           </div>
           <div className="flex flex-row lg:max-w-[33%]">
@@ -35,7 +35,7 @@ const Roadmap = () => {
             </div>
             <div>
               <div className="text-lg font-medium">Phase 3</div>
-              <div className="mt-3 text-lightGrey">Release of interactive DAPP News articles. Dextools/CMC advertising & Listing on exchanges . Bridge chains.</div>
+              <div className="mt-3 text-lightGrey">Presale with Pinksale, Listing at Coinmarketcap and Coingecko. Apply listing to CEX/DEX.</div>
             </div>
           </div>
         </div>
