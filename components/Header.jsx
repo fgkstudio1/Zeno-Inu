@@ -15,7 +15,7 @@ const Header = () => {
     <>
       <Head>
         <title>Unipad - #1 Decentralized Launchpad for Multi Chain & Metaverse Gaming </title>
-        <meta name="description" content="The Omni-king, and supreme ruler of all meme tokens. Bringing utility and community together to rule the Multiverse." />
+        <meta name="description" content="Decentralized Launchpad for MetaVerse Gaming & NFTs Multiverse. #1 Decentralized Launchpad for Multi Chain & Metaverse Gaming" />
       </Head>
       <Popover as="header" className="relative">
         <div className="bg-[#141419] pt-6">

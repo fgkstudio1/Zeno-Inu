@@ -32,7 +32,7 @@ export default function Index({ burned }) {
       </section>
       <LogoCloud />
       <div className="max-w-7xl mx-auto pt-16">
-        <YoutubeEmbed embedId="cIF_K5x2jTo" />
+        <YoutubeEmbed embedId="cGeH9HjFeIs" />
       </div>
       <ScrollableAnchor id={'tokenomics'}><div></div></ScrollableAnchor>
 
