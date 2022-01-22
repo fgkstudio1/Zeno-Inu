@@ -52,10 +52,12 @@ export default function Index({ burned }) {
     </MainLayout>
   )
 }
-
+/** 
 export async function getServerSideProps(context) {
   const { burned } = await fetch('https://www.unipad.app/api/supply').then(res => res.json());
   return {
     props: { burned }, // will be passed to the page component as props
   }
 }
+
+*/
