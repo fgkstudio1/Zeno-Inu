@@ -14,8 +14,12 @@ const Roadmap = () => {
               <div className="mt-2" style={{ width: '1px', height: '80px', background: 'linear-gradient(#2accfe, transparent)'}}></div>
             </div>
             <div>
-              <div className="text-lg font-medium">January 2022</div>
-              <div className="mt-3 text-lightGrey">Create Awareness, Develop Smart Contract, Launch Website V1</div>
+              <div className="text-lg font-medium">Q I 2022</div>
+              <div className="mt-3 text-lightGrey">Unipad Concept, Create Brand Awareneness</div>
+              <div className="mt-3 text-lightGrey">Develop Website,Launch Website V1</div>
+              <div className="mt-3 text-lightGrey">Develop Smart Contract</div>
+              <div className="mt-3 text-lightGrey">First Audit And KYC With TechAudit</div>
+              <div className="mt-3 text-lightGrey">Private Sale With Loyal Community</div>
             </div>
           </div>
           <div className="flex flex-row lg:max-w-[33%]">
@@ -24,8 +28,12 @@ const Roadmap = () => {
               <div className="mt-2" style={{ width: '1px', height: '80px', background: 'linear-gradient(#2accfe, transparent)'}}></div>
             </div>
             <div>
-              <div className="text-lg font-medium">February 2022</div>
-              <div className="mt-3 text-lightGrey">Parabolic Marketing, Private Sale with Loyal Investor and create more awareness about UNIPAD</div>
+            <div className="text-lg font-medium">Q I 2022</div>
+              <div className="mt-3 text-lightGrey">Unipad Concept, Create Brand Awareneness</div>
+              <div className="mt-3 text-lightGrey">Develop Website,Launch Website V1</div>
+              <div className="mt-3 text-lightGrey">Develop Smart Contract</div>
+              <div className="mt-3 text-lightGrey">First Audit And KYC With TechAudit</div>
+              <div className="mt-3 text-lightGrey">Private Sale With Loyal Community</div>
             </div>
           </div>
           <div className="flex flex-row lg:max-w-[33%]">

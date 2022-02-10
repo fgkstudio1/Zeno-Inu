@@ -18,13 +18,10 @@ export default function Index({ burned }) {
             <div className="gradientText uppercase text-lg" style={{ letterSpacing: '8px' }}>#1 Decentralized Launchpad for Multiverse</div>
             <h1 className="text-white text-2xl lg:text-6xl mt-6" style={{ lineHeight: typeof window !== 'undefined' && window.innerWidth > 1000 ? '90px': '1' }}><b>UNIPAD</b> <span className="gradientText" >Decentralized Launchpad for MetaVerse Gaming & NFTs</span></h1>
           </div>
-          <div className="text-teal text-lg mt-10">Bringing decentralized launchpad and community together to rule the Multiverse.</div>
-          <div className="mt-2 text-lg text-lightGrey">The objective is to bring value to the DeFi space as a whole by delivering disruptive, flexible and audited technology.</div>
-          <div className="mt-2 text-lg text-lightGrey">
-           Strenghten your project and reward your communities using our services.<br/>
-            We will utilize all avenues available (marketing/partnerships/experienced developers)<br /> to reach our goals. 
-            Will you come along for the journey?
-          </div>
+          <div className="text-teal text-lg mt-10">Unipad will bringing and empowering your ideas to raise capital in a fair, transparent and decentralized way.</div>
+          <div className="mt-2 text-lg text-lightGrey">Multichain launchpad and Decentralized Incubator Protocol.<br/>
+           Decentralizing seed funding and giving everyone early access to innovative projects.</div>
+          
         </div>
         <div>
           <img src="/unipad.png" className="mt-10" alt="" srcSet="" />
@@ -32,7 +29,7 @@ export default function Index({ burned }) {
       </section>
       <LogoCloud />
       <div className="max-w-7xl mx-auto pt-16">
-        <YoutubeEmbed embedId="cGeH9HjFeIs" />
+        <YoutubeEmbed embedId="J25SpMqbAyk" />
       </div>
       <ScrollableAnchor id={'tokenomics'}><div></div></ScrollableAnchor>
 
